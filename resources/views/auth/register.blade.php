@@ -7,6 +7,13 @@
     <title>Register</title>
 </head>
 <body>
-    
+    <header>
+        <h1>Buat Account baru</h1>
+    </header>
+    <form action="">
+        <h2>Sign Up Form</h2>
+    </form>
+    <label for="first_name">First Name</label>
+    <input type="text">
 </body>
 </html>
