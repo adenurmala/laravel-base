@@ -223,7 +223,7 @@
 
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link active">
+            <a href="#" class="nav-link">
               <i class="nav-icon fas fa-table"></i>
               <p>
                 Tables
@@ -234,19 +234,13 @@
               <li class="nav-item">
                 <a href="table" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
-                  <p>Simple Tables</p>
+                  <p>Tables</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="/data-tables" class="nav-link active">
+                <a href="/data-tables" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>DataTables</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="../tables/jsgrid.html" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>jsGrid</p>
                 </a>
               </li>
             </ul>
@@ -265,7 +259,7 @@
       <div class="container-fluid">
         <div class="row mb-2">
           <div class="col-sm-6">
-            <h1 class="m-0">Dashboard</h1>
+            <h1 class="m-0">@yield('title')</h1>
           </div><!-- /.col -->
           <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">
