@@ -11,3 +11,9 @@ Route::get('/welcome', function () {
 Route::get('/register', function () {
     return view('auth/register');
 });
+Route::get('/table', function() {
+    return view('home/table');
+});
+Route::get('/data-tables', function() {
+    return view('home/datatable');
+});
